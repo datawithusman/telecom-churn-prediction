@@ -33,7 +33,7 @@ telecom-churn-prediction/
 ## Quickstart
 
 ```bash
-git clone https://github.com/yourusername/telecom-churn-prediction.git
+git clone https://github.com/datawithusman/telecom-churn-prediction.git
 cd telecom-churn-prediction
 pip install -r requirements.txt
 
