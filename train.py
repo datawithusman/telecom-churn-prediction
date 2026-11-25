@@ -42,7 +42,7 @@ def main():
     DATA_PATH = os.path.join("data", "raw", "WA_Fn_UseC_Telco_Customer_Churn.csv")
     if not os.path.exists(DATA_PATH):
         raise FileNotFoundError(
-            "Dataset not found. Run: kaggle datasets download -d blastchar/telco-customer-chunk"
+            "Dataset not found. Run: kaggle datasets download -d blastchar/telco-customer-churn"
         )
 
     print('Loading data...')
